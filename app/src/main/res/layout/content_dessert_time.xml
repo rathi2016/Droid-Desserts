@@ -29,6 +29,7 @@
         android:contentDescription="@string/ice_cream_sandwiches_have_chocolate_wafers_and_vanilla_filling"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textintro"
+        android:onClick="showIceCreamOrder"
         app:srcCompat="@drawable/froyo_circle" />
 
     <ImageView
@@ -40,6 +41,7 @@
         android:contentDescription="@string/froyo_is_premium_self_serve_frozen_yogurt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ice_cream"
+        android:onClick="showFroyoOrder"
         app:srcCompat="@drawable/icecream_circle" />
 
     <ImageView
@@ -51,6 +53,7 @@
         android:contentDescription="@string/donuts_are_glazed_and_sprinkled_with_candy"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/froyo"
+        android:onClick="showDonutOrder"
         app:srcCompat="@drawable/donut_circle" />
 
     <TextView
